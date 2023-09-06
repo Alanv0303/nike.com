@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.main{
+   width: 100%;
+}
+.up-header{
+    width: 100%;
+    height: 40px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo img{
+    width: 50px;
+    height: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.up-list ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    
+}
+.up-list a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    font-weight: 100;
+   
+}
+.sec-up-header{
+    width: 100%;
+    height: 85px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nike-logo img{
+    width: 50px;
+    height: 70px;
+    margin-left:50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.sec-list ul{
+    margin-left: 500px;
+
+}
+
+.sec-list ul li{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 30px;
+}
+.sec-list a{
+    text-decoration: none;
+    color: black;
+
+}
+.button{
+  margin-right: 100px; 
+  display: flex ;
+  justify-content:space-between; 
+  padding-top:30px;
+  padding: 20px;
+  padding-left: 70px;
+  
+}
+.first-search{
+    border-radius: 30px;
+    width: 200px;
+    background: whitesmoke;
+    border: none;
+    font-size: 15px;
+}
+
+.button .fa-regular{
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+.button .fa-solid {
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+.fa-solid:hover{
+    background: whitesmoke;
+    border-radius: 20px;
+}
+.fa-regular:hover{
+    background: whitesmoke;
+    border-radius: 20px;
+}
+.button input{
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    background: whitesmoke;
+    
+}
+.third-header{
+    width: 100%;
+    height: 60px;
+    background: whitesmoke;
+    text-align: center;
+    padding-top:10px ;
+    
+}
+.sec-p{
+    padding-top: 10px;
+    font-size: 13px;
+}
+.third-header span{
+    text-decoration: underline;
+}
+
+/*----------------container-----------------*/
+
+
+
+.first-container{
+    width: 100%;
+    height: 100vh;
+    padding: 0 50px;
+    text-align: center;
+    
+}
+.c-frst{
+    font-size: 16px;
+    padding-top: 50px;
+}
+.c-sec{
+    font-size: 60px;
+    font-weight: 1000;
+    letter-spacing: -2px;
+}
+.c-third{
+    font-size: 16px;
+    padding-top: 20px;
+    letter-spacing: -.4px;
+}
+
+.sec-button{
+     background: black;
+     padding: 7px 20px;
+     font-size: 16px;
+     color: white;
+     border-radius: 20px;
+     text-align: -20px;
+     margin-top: 20px;
+     letter-spacing: px;
+     cursor: pointer;
+     border: none;
+}
+.sec-button:hover{
+    background-color: grey;
+}
+.second-container{
+    text-align: start;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.second-container p{
+    padding-left: 50px;
+}
+.second-container img{
+    padding-left:250px ;
+    padding-top: 20px;
+    width: 100%;
+    padding-right: 500px;
+}
+.d-first{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 1000;
+    font-style: bold;
+    font-size: 50px;
+    line-height: 60px;
+
+}
+.second-container .d-second{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+
+}
+#third-button{
+   display: block;
+   margin: auto;
+   background: black;
+   padding: 7px 20px;
+   font-size: 16px;
+   color: white;
+   border-radius: 20px;
+   margin-top: 20px;
+   letter-spacing: px;
+   cursor: pointer;
+   border: none;
+     
+}
+#third-button:hover{
+    background-color: grey;
+}
+
+.para {
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+}
+
+.third-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 40px;
+}
+
+.picture-container {
+    position: relative;
+}
+
+.picture-container img {
+    max-width: 100%;
+}
+
+.para-text {
+    font-size: 20px;
+    padding: 30px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 1;
+    top: 80%;
+}
+
+.fourth-button, .fifth-button {
+    padding: 4px 4px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.para-sec{
+    font-size: 15px;
+    padding: 10px 0;
+
+}
+.para-third{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.fourth-button:hover{
+    background: grey;
+}
+.fifth-button:hover{
+    background: grey;
+}
+.fourth-container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+.fourth-container p{
+    font-size: 25px;
+    padding-left: 50px;
+}
+.sec-picture-container img{
+    padding: 20px 30px;
+}
+.fourth-container .para-sec-text .sixth-button{
+    position: absolute;
+    top: 80%;
+    left: 50px;
+    cursor: pointer;
+    padding: 20px 40px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+.sixth-button:hover{
+    background: grey;
+}
+.next-line{
+    text-align: center;
+}
+.fourth-container .first-line{
+    font-size: 50px;
+    font-weight: 1000;
+    letter-spacing: -2px;
+}
+.fourth-container .sec-line{
+    font-size: 16px;
+    padding-top: 10px
+}
+.seven{
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+.seven:hover{
+    background: grey;
+}
+.para {
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+}
+
+.fifth-container {    /*--FIFTH-CONTAINER---*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 40px;
+    
+}
+
+.picture-container-two{
+    position: relative;
+}
+
+.picture-container-two img {
+    max-width: 100%;
+    padding-top: 70px
+}
+
+.para-text-two {
+    font-size: 20px;
+    padding: 30px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 1;
+    top: 80%;
+}
+.para-three{
+    padding-bottom: 30px;
+}
+
+.eighth-button, .nineth-button {
+    padding: 5px 5px;
+    border-radius: 30px;
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.sixth-container {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+.sixth-container p{
+    padding-left: 50px;
+
+}
+.sixth-container img{
+    padding: 30px 50px;
+}
+.sixth-container .seventh{
+    text-align: center;
+}
+.seven-one{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.seven-two{
+    font-weight: 1000;
+    font-size: 72px;
+    line-height: 60px;
+    margin-top: 20px;
+}
+.seven-three{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.tenth-button{
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+.tenth-button:hover{
+    background: grey;
+}
+.seventh-container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+    padding: 0 30px;
+}
+.picture-container-three{
+    position: relative;
+    
+}
+.main-button{
+    position: absolute;
+    top: 70%;
+    left: 30px;
+}
+.main-button .eleventh{
+    color:black;
+    background: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.main-button .twelve{
+    color:black;
+    background: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.main-button .thirteen{
+    background-color: grey;
+    color:black;
+    background: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.main-button .eleventh:hover{
+    background: grey;
+}
+.main-button .twelve:hover{
+    background: grey;
+}   
+.main-button .thirteen:hover{
+    background: grey;
+}
+.eight-container{
+    width: 100%;
+}
+.up-footer{
+    display:flex;
+    justify-content:center;
+}
+.up-footer ul{
+    list-style: none;
+}
+.up-footer h4{
+    font-weight: 500;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.up-footer a{
+    text-decoration: none;
+    color: grey;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 80px;
+}
+.up-footer a:hover{
+    color: black;
+} 
+/*-------------footer---------------*/
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: wrap;
+}
+footer ul{
+    list-style: none;
+    padding: 10px 0 ;
+}
+.footer-col{
+
+    width: 35%;
+    padding: 0 50px;
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color:black;
+    padding: 60px 0;
+}  
+.footer-col h4{
+    font-size: 15px;
+    color: grey;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.footer-col ul li a{
+    font-size:12px;
+    text-transform: capitalize;
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 20px 0;
+   
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+.sec-footer{
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-one{
+    font-size: 10px;
+    padding: 0 30px;
+}
+.foot-two{
+    padding-right: 50px;
+    font-size: 10px;
+}
